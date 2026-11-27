@@ -10,4 +10,16 @@ public class Connexion {
         this.source = source;
         this.destination = destination;
     }
+
+    public double getPoids() {
+        return poids;
+    }
+
+    public Neurone getSource() {
+        return source;
+    }
+
+    public Neurone getDestination() {
+        return destination;
+    }
 }
